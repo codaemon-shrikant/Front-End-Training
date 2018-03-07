@@ -21,7 +21,7 @@ module.exports = function(defaults) {
 
     // Added Bootstrap Package
     'ember-cli-bootstrap-sass': {
-      'importBootstrapJS': true,
+      'importBootstrapJS': false,
       'components': false
     }
   });

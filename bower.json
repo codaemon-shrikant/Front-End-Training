@@ -1,6 +1,5 @@
 {
   "name": "front-end-training",
   "dependencies": {
-  		"jquery": "1.11.3"
   }
 }
