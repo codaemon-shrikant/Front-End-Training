@@ -1,0 +1,227 @@
+body {
+    background: #fff; 
+    margin: 0; 
+    padding: 0;
+    font-family: "Raleway Regular";
+    font-size: 14px;
+}
+.container {
+    width: 1024px;
+	margin: 0 auto;
+}
+.clearfix {
+	clear: both !important;
+}
+a {
+	text-decoration: none;
+}
+/*Header css*/
+.header-main {
+    background: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    -webkit-box-shadow: 0px 0px 56px -1px rgba(138,138,138,1);
+    -moz-box-shadow: 0px 0px 56px -1px rgba(138,138,138,1);
+    box-shadow: 0px 0px 56px -1px rgba(138,138,138,1);
+}
+.logo-sec {
+	float: left;
+}
+.navbar {
+	float: right;
+	margin-bottom:0px;
+}
+.navbar .nav {
+	list-style: none;
+	padding: 0;
+	margin: 15px 0 0;
+}
+.navbar .nav li {
+	display: inline-block;
+}
+.navbar .nav li a {
+	color: #464a4d;
+	font-size: 16px;
+	padding: 0 15px;
+	text-shadow: none;
+    font-family: "Raleway Semibold";
+    transition: .3s;
+}
+.navbar .nav li:last-child a {
+	padding-right: 0px;
+}
+.navbar .nav li a:hover {
+	color: #30d0ff;
+	background: transparent;
+    box-shadow: none;
+}
+.navbar .nav li.active a {
+	color: #30d0ff;
+	background: transparent;
+    box-shadow: none;
+}
+/*Footer css*/
+.footer-main {
+    background: #30d0ff;
+    padding: 30px 0;
+}
+.footer-main .copyright {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Raleway Medium";
+    letter-spacing: 0.5px;
+	float: left;
+}
+.footer-main .ftr-nav {float: right;}
+.footer-main .ftr-nav a {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Raleway Medium";
+    margin-right: 30px;
+}
+.footer-main .ftr-nav a:last-child {margin-right: 0px;}
+/* About us page css */
+.about-banner {
+    background: url(../images/banner.jpg) no-repeat left;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 0;
+    min-height: 550px;
+    position: relative;
+    margin-top: 70px;
+}
+.about-cont-main {
+    display: table;
+    text-align: right;
+    float: right;
+    height: 550px;
+}
+.about-cont-main .about-cont {
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-cont-main .about-cont h1 {
+    margin: 0 0 10px;
+	color: #fff;
+	font-family: "Raleway Regular";
+	font-size: 36px;
+}
+.about-cont-main .about-cont h2 {
+    margin: 0;
+	color: #fff;
+	font-family: "Raleway Regular";
+	font-size: 28px;
+    margin: 0;
+}
+.about-sec {
+    background: #fff;
+    padding: 40px 0;
+}
+.about-sec h1 {
+    color: #3a3c3e;
+    font-size: 40px;
+    font-family: "Raleway Regular";
+    text-align: center;
+    margin: 0 0 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.about-sec h1 span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    margin: 0 auto;
+    background: #30d1ff;
+}
+.about-sec h2 {
+    color: #3a3c3e;
+    font-size: 18px;
+    font-family: "Raleway Regular";
+    text-align: center;
+    line-height: 26px;
+    margin: 0 0 40px;
+}
+.location-main {
+    background: url(../images/address-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 60px 0 0;
+    min-height: 890px;
+    position: relative;
+	top: 70px;
+	z-index:-1;
+}
+.location-main h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Raleway Regular";
+    text-align: center;
+    margin: 0 0 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.location-main h1 span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    margin: 0 auto;
+    background: #30d1ff;
+}
+.location-cont-main {margin-bottom: 30px;}
+.location-cont-main .loc-table {display: inline-block; width: 50%; vertical-align: top;}
+.location-cont {
+    display: flex;
+}
+.location-cont img {
+    display: inline-flex;
+    vertical-align: middle;
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+.location-cont h2 {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-family: "Raleway Regular";
+    font-size: 24px;
+    line-height: 42px;
+    margin: 0;
+}
+.location-map {
+	width: 49%;
+	display: inline-block;
+}
+.faq-sec {
+	margin-top: 70px;
+	padding: 40px 0;
+	background: #fff;
+}
+.faq-sec h1 {
+    color: #3a3c3e;
+    font-size: 40px;
+    font-family: "Raleway Regular";
+    text-align: center;
+    margin: 0 0 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.faq-sec h1 span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    margin: 0 auto;
+    background: #30d1ff;
+}
