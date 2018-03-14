@@ -25,5 +25,9 @@ module.exports = function(defaults) {
       'components': false
     }
   });
+  app.import("vendor/jquery.min.js");
+  app.import("vendor/bootstrap.min.js");
+
+   
   return app.toTree();
 };
