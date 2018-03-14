@@ -1,0 +1,14 @@
+<div class="container">
+	<h1>Login to Your Account</h1><br>
+		<form>
+			<input type="text" name="user" placeholder="Username">
+			<input type="password" name="pass" placeholder="Password">
+			<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+	  	</form>
+					
+		<div class="login-help">
+			 {{#link-to "register" class="button"}}Register {{/link-to}} -
+			 {{#link-to "forget_password" class="button"}}Forget Password {{/link-to}}
+		</div>
+</div>
+
