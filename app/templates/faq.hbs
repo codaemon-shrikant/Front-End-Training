@@ -1,0 +1,108 @@
+<!-- Header starts here -->
+<header class="header-main clearfix">
+  <div class="container">
+    <div class="logo-sec">
+	  <img src="/images/logo.png" alt="Codaemon Softwares Private Limited" title="Codaemon Softwares Private Limited" />
+	</div>
+	<nav class="navbar">
+	  <ul class="nav">
+        <li>
+		  {{#link-to "about"}}
+			About Us
+		  {{/link-to}}
+		</li>
+	    <li class="active">
+		  {{#link-to "faq"}}
+			FAQ
+		  {{/link-to}}
+		</li>
+        <li>
+		  {{#link-to "contact"}}
+			Contact Us
+		  {{/link-to}}
+		</li>
+	  </ul>
+	</nav>
+  </div>
+</header>
+<!-- Header ends here -->
+
+<!-- Faq section starts here -->
+<div class="faq-sec clearfix">
+  <div class="container">
+    <h1>Frequently Asked Questions<span></span></h1>
+	  <div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span> Are you using an e-commerce platform that is right for your business?</a>
+				</h4>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<p>E-commerce is expanding rapidly. Platforms like Shopify, Magento etc. have surfaced over the years to support this trend. With a large number of businesses setting up shop on these, competition peaked. So, platforms like Shopify shed their humble beginnings to evolve into more powerful solutions with new features and apps developed and added by their global teams of developers. Some of these include integration of Facebook Shop, umpteen payment gateways, new digital marketing and monetization techniques etc. As a result, proprietary solutions could no longer keep up with them. This is exactly why we took a decision to migrate the huge proprietary e-commerce system of our client, Kill The 8, to Shopify. We have successfully migrated 200 stores with 80,000 products and 10 million customers along with providing a variety of customization solutions.</p>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span> Can you host multiple shops within a single Shopify Shop</a>
+				</h4>
+			</div>
+			<div id="collapseTwo" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>While working with our client, Kill The 8, we faced a challenge of hosting multiple brands on a single Shopify shop. The problem with this was that the brands could end up losing their exclusivity and risk using the same theme as the others for displaying their products. To overcome this, we customized the liquid templates in a way that enables each brand to retain its footprint right from the landing page to the Thank-You page.</p>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span> How would you achieve a single page checkout even on Shopify?</a>
+				</h4>
+			</div>
+			<div id="collapseThree" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>Shopify does not permit customization of the checkout experience beyond a certain limit. So we built a fully customized checkout section for our client, Truniagen, on a separate web server. This redirects the buyer from the Shopify cart page to the custom checkout page along with all the cart details, thus providing a seamless user experience.</p>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-plus"></span> Why do you need to have an exclusive mobile app to sell your products?</a>
+				</h4>
+			</div>
+			<div id="collapseFour" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>A merchant on Shopify or Magento would like to have his own mobile app for several reasons. One strong reason is the ability to send discounts and offer information via push notification. Another reason is the ability to conduct an accurate and drilled-down analysis of customer behavior. To facilitate this, we have built a ready-to-plug-in mobile app that can be personalized and tied with Shopify or Magento or any popular e-commerce platform in no time.</p>
+				</div>
+			</div>
+		</div>
+	  </div>
+  </div>
+</div>
+<!-- Faq section ends here -->
+
+<!-- Footer starts here -->
+<footer class="footer-main clearfix">
+  <div class="container">
+    <div class="copyright">
+      &copy; 2018 Codaemon Softwares PVT. LTD. All Rights Reserved. 
+    </div>
+    <div class="ftr-nav">
+      {{#link-to "about"}}
+		About Us
+	  {{/link-to}}
+	  {{#link-to "faq"}}
+		FAQ
+	  {{/link-to}}
+      {{#link-to "contact"}}
+		Contact Us
+	  {{/link-to}}
+    </div>
+	<div class="clearfix"></div>
+  </div>
+</footer>
+<!-- Footer ends here -->
