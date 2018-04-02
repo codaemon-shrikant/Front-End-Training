@@ -15,3 +15,5 @@
 /libpeerconnection.log
 npm-debug.log*
 testem.log
+/HTML5Application/nbproject/private/
+/HTML5Application1/nbproject/private/
